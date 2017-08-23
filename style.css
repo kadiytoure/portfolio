@@ -63,6 +63,11 @@ nav a {
     background-color: RGBa(241, 211, 79, 0.15);
 }
 
+.menu-comp:hover {
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+
 .menu-con:hover {
     border-top: 5px solid #e44d26;
     background-color: RGBa(228, 77, 38, 0.15);
