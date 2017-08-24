@@ -71,3 +71,14 @@ nav a {
 nav li:hover a {
     padding: 15px 30px 20px 30px;
 }
+
+section {
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sec {
+    margin: 0px 10%;
+}
