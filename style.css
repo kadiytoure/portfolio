@@ -63,11 +63,6 @@ nav a {
     background-color: RGBa(241, 211, 79, 0.15);
 }
 
-.menu-comp:hover {
-    border-top: 5px solid #0070bb;
-    background-color: RGBa(000, 112, 192, 0.15);
-}
-
 .menu-con:hover {
     border-top: 5px solid #e44d26;
     background-color: RGBa(228, 77, 38, 0.15);
@@ -75,21 +70,4 @@ nav a {
 
 nav li:hover a {
     padding: 15px 30px 20px 30px;
-}
-
-@media screen and (max-width: 780px) {
-    header {
-        height: 50px;
-    }
-    h1 {
-        font-size: 28px;
-        margin: 20px 0px 0px 0px;
-    }
-    nav li a {
-        font-size: 12px;
-        padding: 10px;
-    }
-    nav li:hover a {
-        padding: 5px 10px 10px 10px;
-    }
 }
