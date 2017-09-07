@@ -122,11 +122,11 @@ section {
 }
 
 #first {
-    background-image: url("img/projet1.png");
-    background-size: auto auto;
+    background-image: url("img/bloctel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 10em;
     height: 10em;
-    border-radius: 0.5em;
 }
 
 #hover {
