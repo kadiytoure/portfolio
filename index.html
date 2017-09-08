@@ -9,62 +9,79 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <title>My portfolio</title>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <h1>Kadiy Diatou TOURE</h1>
-    </header>
-    <nav>
-        <div class="table">
-            <ul>
-                <li class="menu-ind">
-                    <a href="index.html">Accueil</a>
-                </li>
-                <li class="menu-exp">
-                    <a href="index.html#realisations">Mes réalisations</a>
-                </li>
-
-                <li class="menu-con">
-                    <a href="index.html#liens">Contact</a>
-                </li>
-            </ul>
+        <div class="container-fluid green header">
+            <h1>Kadiy Diatou TOURE</h1>
         </div>
-    </nav>
-    <article>
-        <section id="presentation">
-            <h1>Présentation</h1>
-            <div class="sec">
-                <div class="right">
-                    <a href="mailto:tourekadiy@gmail.com">Contactez-moi</a>
-                </div>
-                <div class="left">
-                    <p>Bonjour, Je m'appelle Kadiy Toure, j'ai 24 ans et je vis en région lyonnaise.</p>
-                    <p>Je suis Développeuse Web Junior en recherche d'un emploi
-                        <p>
-                            <p>Combative, persévérante, curieuse, je peux mettre à la disposition d'une entreprise ma capacité de travail et mon ouverture d'esprit.</p>
-                            <p>Dans ce site, vous trouverez des projets que j'ai réalisé dans le cadre de ma formation intensive en développement web.</p>
-                </div>
+    </header>
+    <div>
+        <nav>
+            <div class="container-fluid table">
+                <ul>
+                    <li class="menu-ind">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="menu-exp">
+                        <a href="index.html#realisations">Mes réalisations</a>
+                    </li>
+
+                    <li class="menu-con">
+                        <a href="index.html#liens">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <section id="realisations">
-            <h1>Mes réalisations</h1>
-            <div id="first">
+        </nav>
+    </div>
+    <div class="container white">
 
+        <article>
+            <section id="presentation">
+                <h1>Présentation</h1>
+                <div class="sec">
+                    <div class="right">
+                        <a href="mailto:tourekadiy@gmail.com">Contactez-moi</a>
+                    </div>
+                    <div class="left">
+                        <p>Bonjour, Je m'appelle Kadiy Toure, j'ai 24 ans et je vis en région lyonnaise.</p>
+                        <p>Je suis Développeuse Web Junior en recherche d'un emploi</p>
+                        <p>Combative, persévérante, curieuse, je peux mettre à la disposition d'une entreprise ma capacité de travail et mon ouverture d'esprit.</p>
+                        <p>Dans ce site, vous trouverez des projets que j'ai réalisé dans le cadre de ma formation intensive en développement web.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="realisations">
+                <h1>Mes réalisations</h1>
+                <section id="projets">
+                    <section>
+                        <div id="first"></div>
+                        <h2>Création d'un Chat!</h2>
+                        <p>Tchat with AJAX, PHP, BOOTSTRAP, MYSQL, JSON</p>
+                        <a href="https://simplonlyon.fr/promo/kadiy/ajax_chat/">
+                        Voir le site
+                        </a>
+                        <a href="https://github.com/kadiytoure/ajax_chat">
+                        Voir le GitHub
+                        </a>
+                    </section>
+                    <section id="second">
+                        <div id="second-img"></div>
+                        <h2>Création d'un jeu Javascript</h2>
+                        <p>Jeu with CSS & JavaScript</p>
+                        <a href="">Voir le site</a>
+                        <a href="">Voir le GitHub</a>
+                    </section>
+                </section>
+            </section>
+        </article>
+    </div>
+    </div>
 
-                <a href="https://simplonlyon.fr/promo/kadiy/bloctel.html/">
-                Voir le site
-            </a>
-                <a href="https://github.com/kadiytoure/bloctel.html">
-               Voir le GitHub
-            </a>
-                <article class="article">
-
-
-                </article>
-        </section>
-
-    </article>
     <footer>
         <div id="liens">
             <a href="https://mail.google.com/mail/u/0/#inbox"><img class="photo" src="img/send.png" alt="mail"></a>

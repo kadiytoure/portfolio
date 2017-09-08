@@ -44,14 +44,14 @@ nav ul {
 
 nav {
     width: 100%;
-    background-color: #424558;
+    background-color: #fff;
 }
 
 nav a {
     display: inline-block;
     text-decoration: none;
     padding: 20px 30px;
-    color: #FFF;
+    color: #2AC57D;
     text-transform: uppercase;
     font-size: 15px;
 }
@@ -62,7 +62,7 @@ nav a {
 }
 
 .menu-ind:hover {
-    border-top: 5px solid #4c8;
+    border-top: 5px solid #2AC57D;
     background-color: RGBa(64, 200, 130, 0.15);
 }
 
@@ -108,7 +108,7 @@ section {
 }
 
 #presentation {
-    border-top: 5px solid #4c8;
+    border-top: 5px solid #2AC57D;
     background-color: RGBa(64, 200, 130, 0.15);
 }
 
@@ -122,7 +122,7 @@ section {
 }
 
 #first {
-    background-image: url("img/htmlcss.png");
+    background-image: url("img/tchat.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 25em;
@@ -132,9 +132,21 @@ section {
 
 #realisations a {
     text-decoration: none;
-    background-color: #4CAF50;
+    background-color: lightgrey;
     border: none;
-    color: white;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#realisations a:hover {
+    text-decoration: none;
+    background-color: #9b59b6;
+    border: none;
+    color: #fff;
+    font-weight: 800;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -150,4 +162,35 @@ section {
     text-align: center;
     display: inline-block;
     font-size: 16px;
+}
+
+#second-img {
+    background-image: url("img/jeujs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25em;
+    height: 25em;
+    border-radius: 0.5em;
+}
+
+#projets {
+    display: flex;
+    justify-content: row;
+}
+
+.green {
+    background-color: #2AC57D;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.header {
+    height: 18vh;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
