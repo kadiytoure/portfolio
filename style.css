@@ -17,11 +17,12 @@ header {
 }
 
 footer {
-    height: 80px;
-    padding-top: 30px;
+    margin: 0px;
+    padding: 0px;
+    height: 90px;
     text-align: center;
-    background-color: #C5C5C5;
-    border-top: 2px solid #AAA;
+    background-color: #2AC57D;
+    border-top: 2px solid #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -63,21 +64,23 @@ nav a {
 
 .menu-ind:hover {
     border-top: 5px solid #2AC57D;
-    background-color: RGBa(64, 200, 130, 0.15);
+    background-color: #fff
 }
 
 .menu-exp:hover {
-    border-top: 5px solid #f1dc4f;
-    background-color: RGBa(241, 211, 79, 0.15);
+    border-top: 5px solid #2AC57D;
+    background-color: #fff;
 }
 
 .menu-con:hover {
-    border-top: 5px solid #e44d26;
-    background-color: RGBa(228, 77, 38, 0.15);
+    border-top: 5px solid #2AC57D;
+    background-color: #fff;
+    text-decoration: none;
 }
 
 nav li:hover a {
     padding: 15px 30px 20px 30px;
+    text-decoration: none;
 }
 
 section {
