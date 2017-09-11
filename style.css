@@ -146,7 +146,7 @@ section {
     text-decoration: none;
     background-color: #2AC57D;
     border: none;
-    color: white;
+    color: black;
     padding: 12px 28px;
     text-align: center;
     display: inline-block;
@@ -192,4 +192,16 @@ section {
     width: 15em;
     height: 15em;
     border-radius: 0.5em;
+}
+
+.right a:hover {
+    text-decoration: none;
+    background-color: #2AC57D;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
 }
