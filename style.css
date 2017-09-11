@@ -25,7 +25,6 @@ footer {
     border-top: 2px solid #fff;
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 #liens {
@@ -35,18 +34,18 @@ footer {
 
 nav li {
     list-style-type: none;
-    float: left;
+    /* float: left; */
 }
 
 nav ul {
     margin: 0px;
     padding: 0px;
-    ;
 }
 
 nav {
+    width: 100%;
     padding: 0px;
-    background-color: #fff;
+    background-color: #90EE90;
 }
 
 nav a {
@@ -64,25 +63,10 @@ nav a {
     padding: 0;
 }
 
-.menu-ind:hover {
-    border-top: 5px solid #2AC57D;
-    background-color: #fff
-}
-
-.menu-exp:hover {
-    border-top: 5px solid #2AC57D;
-    background-color: #fff;
-}
-
-.menu-con:hover {
-    border-top: 5px solid #2AC57D;
-    background-color: #fff;
-    text-decoration: none;
-}
-
 nav li:hover a {
-    padding: 15px 30px 20px 30px;
+    /* padding: 15px 30px 20px 30px; */
     text-decoration: none;
+    color: white;
 }
 
 section {
