@@ -34,7 +34,6 @@ footer {
 
 nav li {
     list-style-type: none;
-    /* float: left; */
 }
 
 nav ul {
@@ -64,7 +63,6 @@ nav a {
 }
 
 nav li:hover a {
-    /* padding: 15px 30px 20px 30px; */
     text-decoration: none;
     color: #fff;
 }
@@ -74,26 +72,6 @@ section {
     min-height: 300px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-}
-
-.sec {
-    margin: 0px 10%;
-}
-
-.left {
-    float: left;
-    width: 70%;
-}
-
-.right {
-    float: right;
-    width: 30%;
-}
-
-.sec::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 #presentation {
@@ -142,17 +120,6 @@ section {
     font-size: 16px;
 }
 
-.right a {
-    text-decoration: none;
-    background-color: #2AC57D;
-    border: none;
-    color: black;
-    padding: 12px 28px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-}
-
 #second-img {
     background-image: url("img/jeujs.png");
     background-repeat: no-repeat;
@@ -194,14 +161,25 @@ section {
     border-radius: 0.5em;
 }
 
-.right a:hover {
-    text-decoration: none;
-    background-color: #2AC57D;
-    border: none;
-    color: #fff;
-    font-weight: 800;
-    padding: 15px 32px;
+#f {
+    background: #C2F6C2;
+    padding-top: 0px;
+    padding-bottom: 70px;
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
+}
+
+#f h2 {
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#f p {
+    font-size: 20px;
+    color: black;
+}
+
+.img-fluid {
+    border-radius: 2em;
 }
