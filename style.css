@@ -20,6 +20,7 @@ h2 {
 a {
     padding: 0;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -33,6 +34,7 @@ p {
 
 .centered {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 footer {
