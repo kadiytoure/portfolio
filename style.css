@@ -138,14 +138,6 @@ section {
     justify-content: row;
 }
 
-.green {
-    background-color: #2AC57D;
-}
-
-.white {
-    background-color: #fff;
-}
-
 .header {
     height: 18vh;
 }
