@@ -21,7 +21,7 @@ a {
     padding: 0;
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
 }
 
 header {
@@ -172,7 +172,7 @@ section {
     font-size: 23px;
     font-weight: 800;
     display: inline-block;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
 }
 
 #f a:hover {
@@ -184,7 +184,7 @@ section {
     font-size: 23px;
     font-weight: 800;
     display: inline-block;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
 }
 
 #f h2 {
