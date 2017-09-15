@@ -183,7 +183,7 @@ section {
     font-size: 23px;
     font-weight: 800;
     display: inline-block;
-    transition: 0.5s
+    transition-duration: 0.5s;
 }
 
 #f h2 {
