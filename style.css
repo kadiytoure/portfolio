@@ -40,7 +40,6 @@ p {
 footer {
     padding-top: 15px;
     margin: 0px;
-    height: 90px;
     text-align: center;
     background-color: #2AC57D;
     border-top: 2px solid #fff;
@@ -198,9 +197,24 @@ section {
     border-radius: 2em;
 }
 
-
-/*
 #projets section img {
     height: 200px;
 }
-*/
+
+#bordure {
+    border-right: 1px solid lightgray;
+}
+
+#liens img {
+    margin: 0.5em;
+}
+
+#remonter {
+    text-align: right;
+    margin: 0;
+}
+
+.fleche {
+    height: 3em;
+    margin-right: 1em;
+}
