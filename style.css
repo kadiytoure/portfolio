@@ -218,3 +218,7 @@ section {
     height: 3em;
     margin-right: 1em;
 }
+
+strong {
+    color: black;
+}
