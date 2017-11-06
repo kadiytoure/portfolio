@@ -191,6 +191,7 @@ section {
 
 #bordure {
     border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 #liens img {
