@@ -211,3 +211,8 @@ section {
 strong {
     color: black;
 }
+
+section p {
+    height: 5em;
+    overflow: auto;
+}
